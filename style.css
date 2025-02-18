@@ -4,6 +4,7 @@
 }
 body{
   color: hsl(235, 18%, 26%);
+  font-family: "Roboto";
 }
 main{
   display: flex;
@@ -11,4 +12,7 @@ main{
   justify-content: center;
   align-items: center;
   max-width: 768px;
+}
+article{
+  width: 375px;
 }
