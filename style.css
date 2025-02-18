@@ -3,8 +3,9 @@
   margin: 0;
 }
 body{
-  color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
   font-family: "Roboto";
+  font-weight: 500;
 }
 main{
   display: flex;
@@ -14,5 +15,16 @@ main{
   max-width: 768px;
 }
 article{
-  width: 375px;
+  width: 340px;
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  padding-top: 20px;
+}
+h1{
+  font-size: 40px;
+}
+p, ul{
+  font-size: 16px;
+  color: hsl(235, 18%, 30%);
+  padding-top: 20px;
 }
