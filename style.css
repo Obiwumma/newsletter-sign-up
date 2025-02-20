@@ -56,18 +56,17 @@ li::before {
 .form-control{
   display: flex;
   flex-direction: column;
-  width: 340px;
-  align-items: start;
+  width: 100%;
   justify-content: left;
 }
 .form-control label{
-  padding-left: 20px;
+  margin-left: 20px;
   padding-bottom: 10px;
   font-size: 14px;
 }
 .form-control input{
   margin-left: 20px;
-  width: 17rem;
+  width: 18rem;
   padding: 15px;
   border: solid .5px;
   border-radius: 7px;
@@ -75,4 +74,5 @@ li::before {
 }
 input::placeholder{
   font-size: 17px;
+  color: #00000065;
 }
