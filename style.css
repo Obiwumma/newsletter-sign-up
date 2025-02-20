@@ -52,7 +52,6 @@ li::before {
   display: flex;
   flex-direction: column;
   width: 375px;
-  padding-left: 40px;
   align-items: start;
   justify-content: left;
 }
