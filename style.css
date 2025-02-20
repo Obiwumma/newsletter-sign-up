@@ -51,7 +51,18 @@ li::before {
 .form-control{
   display: flex;
   flex-direction: column;
-  width: 375px;
+  width: 340px;
   align-items: start;
   justify-content: left;
+}
+.form-control label{
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.form-control input{
+  margin-left: 20px;
+  width: 19rem;
+  height: 40px;
+  border: solid;
 }
