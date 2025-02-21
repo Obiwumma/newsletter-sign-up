@@ -65,9 +65,9 @@ li::before {
   font-size: 14px;
 }
 .form-control input{
-  margin-left: 20px;
+  margin-left: 24px;
   width: 18rem;
-  padding: 15px;
+  padding: 17px;
   border: solid .5px;
   border-radius: 7px;
   border-color: #0000007e;
@@ -75,4 +75,15 @@ li::before {
 input::placeholder{
   font-size: 17px;
   color: #00000065;
+}
+button{
+  margin-top: 20px;
+  padding: 17px;
+  width: 20rem;
+  background-color: hsl(235, 18%, 26%);
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
 }
