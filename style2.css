@@ -6,17 +6,36 @@ body{
   color: hsl(234, 29%, 20%);
   font-family: "Roboto";
   font-weight: 500;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 main{
-  height: 70vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 375px;
   max-width: 768px;
+}
+.good-mark{
+  
+}
+.good-tick::before {
+  content: '✔';            
+  position: relative;
+  left: 50px;
+  top: -100px;
+  font-weight: bold;
+  background-color: #FF6F61; 
+  color: #FFFFFF;            
+  width: 10rem;            
+  height: 10rem;            
+  border-radius: 50%;       
+  display: flex;            
+  align-items: center;
+  justify-content: center;
 }
