@@ -21,20 +21,7 @@ main{
   width: 375px;
   max-width: 768px;
 }
-.good-mark{
-  
-}
-.good-tick::before {
-  content: '✔';            
-  position: relative;
-  left: 50px;
-  top: -100px;
-  font-weight: bold;
-  background-color: #FF6F61; 
-  color: #FFFFFF;            
-  width: 10rem;            
-  height: 10rem;            
-  border-radius: 50%;       
+.good-tick {
   display: flex;            
   align-items: center;
   justify-content: center;
