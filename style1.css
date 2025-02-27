@@ -32,13 +32,16 @@ p, ul{
   padding-top: 20px;
   padding-bottom: 30px;
 }
-li{
-  position: relative;
-  padding-left: 2.5rem;   
-  margin-bottom: 1rem; 
-}
 ul{
-  list-style-image: url(./assets/images/icon-list.svg);
+  list-style-type: none;
+}
+ul li{
+  padding-left: 2rem;
+  padding-bottom: 10px;
+  background-image: url(./assets/images/icon-list.svg);
+  background-position: 0 0;
+  line-height: 1.5rem;
+  background-repeat: no-repeat;
 }
 
 .form-control{
