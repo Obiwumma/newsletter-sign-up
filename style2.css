@@ -13,11 +13,11 @@ body{
   align-items: center;
 }
 main{
-  height: 50vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 375px;
   max-width: 768px;
 }
