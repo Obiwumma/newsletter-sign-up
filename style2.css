@@ -16,13 +16,10 @@ main{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   width: 375px;
   max-width: 768px;
 }
 .good-tick {
-  display: flex;            
-  align-items: center;
-  justify-content: center;
+
 }
