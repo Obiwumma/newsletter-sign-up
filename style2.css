@@ -11,6 +11,7 @@ body{
 main{
   width: 375px;
   max-width: 768px;
+  height: 97vh;
   padding-top: 150px;
   padding-left: 25px;
   padding-right: 25px;
@@ -18,8 +19,19 @@ main{
 h1{
   font-size: 40px;
   line-height: 2.5rem;
+  margin-bottom: 25px;
 }
 p{
   font-size: 17px;
   line-height: 1.5rem;
+}
+.good-tick{
+  margin-bottom: 35px;
+}
+.btn{
+  background-color: blue;
+  height: 63%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
