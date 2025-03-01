@@ -11,4 +11,7 @@ body{
 main{
   width: 375px;
   max-width: 768px;
+  padding-top: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
