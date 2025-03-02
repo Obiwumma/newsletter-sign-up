@@ -19,6 +19,14 @@ main{
   width: 375px;
   max-width: 768px;
 }
+.image{
+  height: 280px;
+  width: 100%;
+  max-width: 400px;
+  background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 article{
   width: 340px;
   padding-top: 20px;
