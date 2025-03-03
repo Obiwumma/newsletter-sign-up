@@ -64,7 +64,7 @@ ul li{
   font-size: 14px;
 }
 .form-control input{
-  margin-left: 24px;
+  margin-left: 10px;
   width: 18rem;
   padding: 17px;
   border: solid .5px;
@@ -86,4 +86,10 @@ button{
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
+}
+@media (min-width:1024px) {
+  /* main{
+    display: flex;
+    flex-direction: row-reverse;
+  } */
 }
