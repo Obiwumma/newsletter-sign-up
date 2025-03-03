@@ -101,6 +101,7 @@ button{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    height: 65vh;
     width: 100%;
     max-width: 900px;
     background-color: #ffffff;
@@ -115,7 +116,7 @@ button{
     border-radius: 20px;
   }
   article{
-    width: 250px;
+    width: 380px;
     margin: 40px;
   }
 }
