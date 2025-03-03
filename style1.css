@@ -105,8 +105,11 @@ button{
     border-radius: 10px;
   }
   .image{
-    height: 500px;
-    background-position: center;
+    height: 480px;
+    width: 360px;
+    background-position: right;
     background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    margin-left: 35px;
+    border-radius: 10px;
   }
 }
