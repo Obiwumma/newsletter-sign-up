@@ -120,7 +120,7 @@ button{
     margin: 40px;
   }
   button:hover {
-    background: linear-gradient(to right, #ff416c, #ff4b2b); 
+    background: linear-gradient(to right, #ff416c, #fd5a3d); 
     color: white; 
     padding: 15px 30px;
     font-size: 16px;
