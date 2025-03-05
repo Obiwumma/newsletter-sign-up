@@ -32,7 +32,7 @@ article{
   padding-top: 20px;
 }
 .label{
-  width: 85%;
+  width: 96%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
@@ -70,12 +70,13 @@ ul li{
   padding-bottom: 10px;
   font-size: 14px;
 }
-.form-control input{
+ input{
   margin-left: 10px;
   width: 18rem;
   padding: 17px;
   border: solid .5px;
   border-radius: 7px;
+  /* background-color: #ed626228; */
   border-color: #0000007e;
 }
 input::placeholder{
@@ -94,6 +95,10 @@ button{
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
+}
+span{
+  font-size: 12px;
+  color: #ea3939;
 }
 @media (min-width:1024px) {
   body{
@@ -136,5 +141,9 @@ button{
     transition: 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
+  .label{
+    width: 85%;
+  }
+  
   
 }
