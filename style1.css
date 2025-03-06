@@ -168,7 +168,7 @@ span{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 65vh;
+    height: 60vh;
     width: 100%;
     max-width: 900px;
     background-color: #ffffff;
